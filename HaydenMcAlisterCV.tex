@@ -1,0 +1,272 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+\small % Smaller font size
+Hayden McAlister \\ % Your name
+\Sep % Some whitespace
+\textbf{Email} \\
+\url{haydenmcalister49@gmail.com} \\ % Your email address
+\Sep % Some whitespace
+\textbf{Phone} \\
+022 120 8324 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Github} \\
+\url{https://github.com/hmcalister}
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Hayden McAlister} % Large heading - your name
+
+\cvsubheading{Software Engineer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{I am a Masters student of Computer Science at the University of Otago. 
+My research has focused on artificial intelligence, neural networks, and high dimensional dynamic systems. \\
+% My other interests in the field include physics simulations, data science, and natural language processing, among many others. 
+I enjoy investigating new ideas, trying new technologies, and solving problems both mathematical and engineering in nature. 
+I have a strong background in computer science, as well as mathematics and physics, which has helped me develop problem solving skills.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\CVItem{2023, University of Otago}{MSc. Computer Science}
+
+%------------------------------------------------
+
+\CVItem{2022, University of Otago}{BSc(Hons), 1st Degree. Computer Science}
+
+\CVItem{2019 - 2021, University of Otago}{BSc. Major in Computer Science, Minors in Physics, Mathematics}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	Research Projects
+%----------------------------------------------------------------------------------------
+
+\CVSection{Research Projects}
+
+%------------------------------------------------
+
+\CVItem{2022-2023, \textit{Interpretability of Neural Networks}, University of Otago}{
+	Research project in interpretability of convolutional neural networks. \\
+	Gained a lot of experience with very low level Tensorflow and other machine learning libraries. Worked independently to achieve project goals.
+}
+
+\CVItem{2023, \textit{Handwriting Analysis Project}, University of Otago}{
+	Group research project in handwriting analysis. Attempted to classify handwriting quality using a variety of metrics.\\
+	Gained experience with data cleaning, signal processing, data visualization, and model comparisons.
+}\\
+
+\CVItem{2022, \textit{Natural Language Processing Project}, University of Otago}{
+	Group research project in natural language processing. Goal was to create methods of measuring similarities between documents with respect to different metrics.\\
+	Gained experience with data cleaning, data processing, natural language processing, and natural language tools.
+}
+
+%------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{2021-2023, \textit{Lab Demonstrating (Various Papers)}, University of Otago}{
+	Involved presenting computer science topics to students. With more experience also involved creating and refining teaching resources for labs.\\
+	Detailed achievements:
+	\begin{itemize}
+		\item Demonstrated for the papers:
+		\begin{itemize}
+			\item COSC201: Algorithms and Data Structures
+			\item COSC202: Software Development
+			\item COSC203: Web, Databases, and Networks
+			\item COSC204: Computer Systems and Security
+			\item COSC301: Network Management and Security
+			\item COSC343: Artificial Intelligence
+		\end{itemize}
+		\item Gained experience working with a team 
+		\item Gained experience explaining difficult concepts to the point of deep understanding
+	\end{itemize}
+}
+
+\CVItem{2020-2023, \textit{Tutoring}, Freelance} {
+	Freelance tutoring for various subjects about the university. Specifically tutored in the fields of Computer Science, Mathematics, and Physics.
+}
+
+\CVItem{2020 - 2022, \textit{IT + Web Design}, STMSNZ}{
+	Detailed achievements:
+	\begin{itemize}
+		\item Designed and created custom websites
+		\item Aided with many mundane IT tasks, e.g.:
+		\begin{itemize}
+			\item Email clients
+			\item Software bugs
+			\item Fixing user errors
+		\end{itemize}
+	\end{itemize}
+}
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Software Development Skills}
+
+%------------------------------------------------
+
+\CVItem{Programming}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Python &  \bluebullet Go & \bluebullet Rust\\
+\bluebullet Java &  \bluebullet C/C++ & \bluebullet Matlab\\
+\bluebullet Shell &  \bluebullet JS + Frameworks\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Machine Learning + Data Science}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Tensorflow &  \bluebullet Pytorch & \bluebullet SpaCy\\
+ \bluebullet Dash &  \bluebullet NumPy & \bluebullet SciPy\\
+ \bluebullet Pandas &  \bluebullet Polars & \bluebullet SQL\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Databases}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet MySQL &  \bluebullet SQLite & \bluebullet MongoDB\\
+ \bluebullet Cassandra &  \bluebullet Monarch & \bluebullet GraphQL\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Other Technologies}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Git/GitHub &  \bluebullet AWS/Cloud & \bluebullet Bash/Shell\\
+ \bluebullet gRPC &  \bluebullet Docker & \bluebullet Kubernetes\\
+ \bluebullet Terraform &  \\
+\end{tabular}}
+
+%------------------------------------------------
+
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Awards}
+
+%------------------------------------------------
+
+\CVItem{2023, \textit{Master's Research Scholarship}, University of Otago}{Awarded to students with high academic achievement moving into Masters research.}
+\\
+\CVItem{2021, \textit{Sir George Grey Senior Scholarship}, University of Otago}{Awarded to the top Bachelors student in the Division of Science.}
+\\
+\CVItem{2021, 2022, \textit{Summer Research Scholarship}, University of Otago}{Awarded to students who undertake a research project over summer.}
+\\
+\CVItem{2020, \textit{Robert Jack Physics Prize (200 Level)}, University of Otago}{Awarded to the top student in 200-level physics.}
+\\
+\CVItem{2019, \textit{Academic Excellence Entrance Scholarship}, University of Otago}{Awarded to the students with high academic achievement entering the University of Otago.}
+\\
+\CVItem{2019, \textit{Gordon Jupp Memorial Prize in Physics}, University of Otago}{Awarded to the top student in 100-level physics.}
+\\
+\CVItem{2019, \textit{Dux Scholarship}, Otago Boys High School}{Awarded to the Dux of Otago Boys High School to study at university.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{Machine Learning, Neural Networks, Data Science, Data Visualization, Software Engineering, Software Development, Software Scalability}
+
+%------------------------------------------------
+
+\CVItem{Personal}{Mathematics, Physics, History, Guitar, Dungeons and Dragons, Magic: The Gathering}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
