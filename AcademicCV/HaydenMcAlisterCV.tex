@@ -1,0 +1,192 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+\small % Smaller font size
+Hayden McAlister \\ % Your name
+\Sep % Some whitespace
+\textbf{Email} \\
+\url{haydenmcalister49@gmail.com} \\ % Your email address
+\Sep % Some whitespace
+\textbf{Phone} \\
+022 120 8324 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Github} \\
+\url{https://github.com/hmcalister}
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Hayden McAlister} % Large heading - your name
+
+\cvsubheading{Postgraduate Student - University of Otago} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\CVItem{MSc. Computer Science}{
+	University of Otago, 2023 (In Progress) \\
+	Thesis: \textit{Energy and the Hopfield Network: A Complementary Perspective}
+}
+
+%------------------------------------------------
+
+\CVItem{BSc(Hons), 1st Degree. Computer Science}{
+	University of Otago, 2022 \\
+	Dissertation: \textit{Sequential Learning in Hopfield Networks}
+}
+
+
+%------------------------------------------------
+
+\CVItem{BSc. Major in Computer Science, Minors in Physics, Mathematics}{
+	University of Otago, 2019-2021\\
+}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	Research Projects
+%----------------------------------------------------------------------------------------
+
+\CVSection{Research Projects}
+
+%------------------------------------------------
+
+\CVItem{2022-2023, \textit{Interpretability of Deep Neural Networks}, University of Otago}{
+	Summer research project into the interpretability of deep neural networks with a focus on convolutional networks. \\
+	Found current state of the art interpretability methods are highly sensitive to hyperparameters. Also found interpretability methods have some relation to weight importance measures.
+} \\
+
+\CVItem{2022-2023, \textit{Connecting Semantically Similar Stories using Natural Language Processing}, University of Otago}{
+	Ongoing group research project in natural language processing. Goal was to create methods of measuring similarities between documents with respect to different metrics.\\
+	Found that similar documents can be clustered together even when presented without that structure.
+} \\
+
+\CVItem{2023, \textit{Handwriting Analysis over Dominant vs Non-Dominant Hands}, University of Otago}{
+	Ongoing group research project in handwriting analysis. Attempted to classify handwriting quality using a variety of metrics.\\
+	Gained experience with data cleaning, signal processing, data visualization, and model comparisons. Currently in the data collection phase.
+} \\
+
+
+\CVItem{2021-2022, \textit{Provenance Tracking }, University of Otago}{
+	Summer research project into tracking provenance across different domains. Focus on distributed ledger technologies as a support for event calculus. Found other technologies may be more promising for the role, but current implementation may be sufficient.
+} \\
+
+%------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{2021-2023, \textit{Lab Demonstrating}, University of Otago}{
+	Involved presenting computer science topics to students. In later years, also involved creating and refining teaching resources for labs.\\
+	Detailed achievements:
+	\begin{itemize}
+		\item Demonstrated for the papers:
+		\begin{itemize}
+			\item COSC201: Algorithms and Data Structures
+			\item COSC202: Software Development
+			\item COSC203: Web, Databases, and Networks
+			\item COSC204: Computer Systems and Security
+			\item COSC301: Network Management and Security
+			\item COSC343: Artificial Intelligence
+		\end{itemize}
+		\item Gained experience working with a team.
+		\item Gained experience communicating difficult concepts to the point of deep understanding.
+		\item Gained leadership experience with additional responsibility to creating lab material.
+	\end{itemize}
+}
+
+\CVItem{2019-2023, \textit{Tutoring}, Freelance} {
+	Freelance tutoring for various subjects about the university. Specifically tutored in the fields of Computer Science, Mathematics, and Physics.
+}
+
+\Sep % Extra whitespace after the end of a major section
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Awards}
+
+%------------------------------------------------
+
+\CVItem{2023, \textit{Master's Research Scholarship}, University of Otago}{Awarded to students with high academic achievement moving into Masters research.}
+\\
+\CVItem{2021, \textit{Sir George Grey Senior Scholarship}, University of Otago}{Awarded to the top Bachelors student in the Division of Science.}
+\\
+\CVItem{2021, 2022, \textit{Summer Research Scholarship}, University of Otago}{Awarded to students who undertake a research project over summer.}
+\\
+\CVItem{2020, \textit{Robert Jack Physics Prize (200 Level)}, University of Otago}{Awarded to the top student in 200-level physics.}
+\\
+\CVItem{2019, \textit{Academic Excellence Entrance Scholarship}, University of Otago}{Awarded to the students with high academic achievement entering the University of Otago.}
+\\
+\CVItem{2019, \textit{Gordon Jupp Memorial Prize in Physics}, University of Otago}{Awarded to the top student in 100-level physics.}
+\\
+\CVItem{2019, \textit{Dux}, Otago Boys High School}{}
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
